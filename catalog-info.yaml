@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jsonwebtoken-swift
+  description: Swift implementation of JSON Web Token (JWT)
+  tags:
+    - swift
+    - jwt
+    - authentication
+    - library
+    - security
+  annotations:
+    github.com/project-slug: yujiea/JSONWebToken.swift
+spec:
+  type: library
+  lifecycle: production
+  owner: user:default/guest
+  system: authentication-libs
